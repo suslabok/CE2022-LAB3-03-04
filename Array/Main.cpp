@@ -1,6 +1,6 @@
 #include "../include/BST.h"
 #include <iostream>
-#include "ArrayBST.h"
+#include "../include/ArrayBST.h"
 
 int main() {
     BST* bst = new Array(31);

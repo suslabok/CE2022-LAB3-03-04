@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ArrayBST.h"
+#include "../include/ArrayBST.h"
 
 Array::Array(int size) : size(size) {
     tree = new int[size];

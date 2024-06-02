@@ -21,7 +21,7 @@ int main() {
 
     std::cout << "Is the tree empty? " << (bst->isEmpty() ? "Yes" : "No") << std::endl;
 
-    std::cout << "Searching for 20: " << (bst->searchBST(20) ? "Found" : "Not Found") << std::endl;
+    std::cout << "Searching for 1: " << (bst->searchBST(1) ? "Found" : "Not Found") << std::endl;
     std::cout << "Searching for 7: " << (bst->searchBST(7) ? "Found" : "Not Found") << std::endl;
 
     // Clean up memory

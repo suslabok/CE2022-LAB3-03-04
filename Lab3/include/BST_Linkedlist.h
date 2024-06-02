@@ -1,7 +1,7 @@
 #ifndef BSt_linkedlist_h
 #define BSt_linkedlist_h 
 
-#include "../include/BST.h"
+#include "BST.h"
 class Node
 {
     public:
@@ -24,7 +24,7 @@ class LinkedlistBst : public BST{
     bool isEmpty();
     void addBST(int data);
     void checker();
-    bool removeBST(int data);
+    void removeBST(int data);
     bool searchBST(int targetkey);
   private:
     Node *Root;
